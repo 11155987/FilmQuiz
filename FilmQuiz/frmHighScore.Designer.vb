@@ -22,9 +22,68 @@ Partial Class frmHighScore
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.lstHighScore = New System.Windows.Forms.ListBox()
+        Me.btnAgain = New System.Windows.Forms.Button()
+        Me.btnQuit = New System.Windows.Forms.Button()
+        Me.IstHighScore = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'lstHighScore
+        '
+        Me.lstHighScore.FormattingEnabled = True
+        Me.lstHighScore.Location = New System.Drawing.Point(275, 139)
+        Me.lstHighScore.Name = "lstHighScore"
+        Me.lstHighScore.Size = New System.Drawing.Size(271, 160)
+        Me.lstHighScore.TabIndex = 0
+        '
+        'btnAgain
+        '
+        Me.btnAgain.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAgain.Location = New System.Drawing.Point(690, 381)
+        Me.btnAgain.Name = "btnAgain"
+        Me.btnAgain.Size = New System.Drawing.Size(89, 25)
+        Me.btnAgain.TabIndex = 1
+        Me.btnAgain.Text = "Again"
+        Me.btnAgain.UseVisualStyleBackColor = True
+        '
+        'btnQuit
+        '
+        Me.btnQuit.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnQuit.Location = New System.Drawing.Point(690, 412)
+        Me.btnQuit.Name = "btnQuit"
+        Me.btnQuit.Size = New System.Drawing.Size(89, 26)
+        Me.btnQuit.TabIndex = 2
+        Me.btnQuit.Text = "Quit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.btnQuit.UseVisualStyleBackColor = True
+        '
+        'IstHighScore
+        '
+        Me.IstHighScore.AutoSize = True
+        Me.IstHighScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IstHighScore.Location = New System.Drawing.Point(68, 9)
+        Me.IstHighScore.Name = "IstHighScore"
+        Me.IstHighScore.Size = New System.Drawing.Size(694, 29)
+        Me.IstHighScore.TabIndex = 3
+        Me.IstHighScore.Text = "Congratulations Your Score Will Be Added To The Hall of Fame"
+        '
+        'frmHighScore
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.IstHighScore)
+        Me.Controls.Add(Me.btnQuit)
+        Me.Controls.Add(Me.btnAgain)
+        Me.Controls.Add(Me.lstHighScore)
+        Me.Name = "frmHighScore"
         Me.Text = "frmHighScore"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+
+    Friend WithEvents lstHighScore As ListBox
+    Friend WithEvents btnAgain As Button
+    Friend WithEvents btnQuit As Button
+    Friend WithEvents IstHighScore As Label
 End Class

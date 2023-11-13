@@ -1,5 +1,5 @@
 ﻿Public Class frmQuestion1
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btNext.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnNext.Click
 
     End Sub
 

@@ -27,11 +27,11 @@ Partial Class frmQuestion1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
-        Me.btNext = New System.Windows.Forms.Button()
-        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
         Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
+        Me.btnNext = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -79,37 +79,16 @@ Partial Class frmQuestion1
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
-        'btnAnswer1
+        'btnAnswer4
         '
-        Me.btnAnswer1.AutoSize = True
-        Me.btnAnswer1.Location = New System.Drawing.Point(6, 27)
-        Me.btnAnswer1.Name = "btnAnswer1"
-        Me.btnAnswer1.Size = New System.Drawing.Size(63, 24)
-        Me.btnAnswer1.TabIndex = 5
-        Me.btnAnswer1.TabStop = True
-        Me.btnAnswer1.Text = "2017"
-        Me.btnAnswer1.UseVisualStyleBackColor = True
-        '
-        'btNext
-        '
-        Me.btNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btNext.Location = New System.Drawing.Point(686, 391)
-        Me.btNext.Name = "btNext"
-        Me.btNext.Size = New System.Drawing.Size(69, 31)
-        Me.btNext.TabIndex = 6
-        Me.btNext.Text = "Next"
-        Me.btNext.UseVisualStyleBackColor = True
-        '
-        'btnAnswer2
-        '
-        Me.btnAnswer2.AutoSize = True
-        Me.btnAnswer2.Location = New System.Drawing.Point(6, 60)
-        Me.btnAnswer2.Name = "btnAnswer2"
-        Me.btnAnswer2.Size = New System.Drawing.Size(63, 24)
-        Me.btnAnswer2.TabIndex = 6
-        Me.btnAnswer2.TabStop = True
-        Me.btnAnswer2.Text = "2018"
-        Me.btnAnswer2.UseVisualStyleBackColor = True
+        Me.btnAnswer4.AutoSize = True
+        Me.btnAnswer4.Location = New System.Drawing.Point(6, 131)
+        Me.btnAnswer4.Name = "btnAnswer4"
+        Me.btnAnswer4.Size = New System.Drawing.Size(63, 24)
+        Me.btnAnswer4.TabIndex = 8
+        Me.btnAnswer4.TabStop = True
+        Me.btnAnswer4.Text = "2019"
+        Me.btnAnswer4.UseVisualStyleBackColor = True
         '
         'btnAnswer3
         '
@@ -122,16 +101,37 @@ Partial Class frmQuestion1
         Me.btnAnswer3.Text = "2016"
         Me.btnAnswer3.UseVisualStyleBackColor = True
         '
-        'btnAnswer4
+        'btnAnswer2
         '
-        Me.btnAnswer4.AutoSize = True
-        Me.btnAnswer4.Location = New System.Drawing.Point(6, 131)
-        Me.btnAnswer4.Name = "btnAnswer4"
-        Me.btnAnswer4.Size = New System.Drawing.Size(63, 24)
-        Me.btnAnswer4.TabIndex = 8
-        Me.btnAnswer4.TabStop = True
-        Me.btnAnswer4.Text = "2019"
-        Me.btnAnswer4.UseVisualStyleBackColor = True
+        Me.btnAnswer2.AutoSize = True
+        Me.btnAnswer2.Location = New System.Drawing.Point(6, 60)
+        Me.btnAnswer2.Name = "btnAnswer2"
+        Me.btnAnswer2.Size = New System.Drawing.Size(63, 24)
+        Me.btnAnswer2.TabIndex = 6
+        Me.btnAnswer2.TabStop = True
+        Me.btnAnswer2.Text = "2018"
+        Me.btnAnswer2.UseVisualStyleBackColor = True
+        '
+        'btnAnswer1
+        '
+        Me.btnAnswer1.AutoSize = True
+        Me.btnAnswer1.Location = New System.Drawing.Point(6, 27)
+        Me.btnAnswer1.Name = "btnAnswer1"
+        Me.btnAnswer1.Size = New System.Drawing.Size(63, 24)
+        Me.btnAnswer1.TabIndex = 5
+        Me.btnAnswer1.TabStop = True
+        Me.btnAnswer1.Text = "2017"
+        Me.btnAnswer1.UseVisualStyleBackColor = True
+        '
+        'btnNext
+        '
+        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNext.Location = New System.Drawing.Point(686, 391)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(69, 31)
+        Me.btnNext.TabIndex = 6
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
         '
         'PictureBox2
         '
@@ -149,7 +149,7 @@ Partial Class frmQuestion1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.btNext)
+        Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label3)
@@ -170,7 +170,7 @@ Partial Class frmQuestion1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents btnAnswer1 As RadioButton
-    Friend WithEvents btNext As Button
+    Friend WithEvents btnNext As Button
     Friend WithEvents btnAnswer3 As RadioButton
     Friend WithEvents btnAnswer2 As RadioButton
     Friend WithEvents btnAnswer4 As RadioButton
