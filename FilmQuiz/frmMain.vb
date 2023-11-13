@@ -6,4 +6,14 @@
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+        playerScore = 0
+        playerName = txtplayerName.Text
+        frmQuestion1.Show()
+        frmQuestion1.InitializeLifetimeService()
+        txtplayerName.Text = ""
+        Me.Hide()
+
+    End Sub
 End Class
