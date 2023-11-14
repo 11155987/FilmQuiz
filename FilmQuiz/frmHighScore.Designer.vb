@@ -25,7 +25,7 @@ Partial Class frmHighScore
         Me.lstHighScore = New System.Windows.Forms.ListBox()
         Me.btnAgain = New System.Windows.Forms.Button()
         Me.btnQuit = New System.Windows.Forms.Button()
-        Me.IstHighScore = New System.Windows.Forms.Label()
+        Me.lblMessage = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lstHighScore
@@ -56,22 +56,22 @@ Partial Class frmHighScore
         Me.btnQuit.Text = "Quit" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.btnQuit.UseVisualStyleBackColor = True
         '
-        'IstHighScore
+        'lblMessage
         '
-        Me.IstHighScore.AutoSize = True
-        Me.IstHighScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IstHighScore.Location = New System.Drawing.Point(68, 9)
-        Me.IstHighScore.Name = "IstHighScore"
-        Me.IstHighScore.Size = New System.Drawing.Size(694, 29)
-        Me.IstHighScore.TabIndex = 3
-        Me.IstHighScore.Text = "Congratulations Your Score Will Be Added To The Hall of Fame"
+        Me.lblMessage.AutoSize = True
+        Me.lblMessage.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMessage.Location = New System.Drawing.Point(68, 9)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(694, 29)
+        Me.lblMessage.TabIndex = 3
+        Me.lblMessage.Text = "Congratulations Your Score Will Be Added To The Hall of Fame"
         '
         'frmHighScore
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.IstHighScore)
+        Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnAgain)
         Me.Controls.Add(Me.lstHighScore)
@@ -85,5 +85,5 @@ Partial Class frmHighScore
     Friend WithEvents lstHighScore As ListBox
     Friend WithEvents btnAgain As Button
     Friend WithEvents btnQuit As Button
-    Friend WithEvents IstHighScore As Label
+    Friend WithEvents lblMessage As Label
 End Class

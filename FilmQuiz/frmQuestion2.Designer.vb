@@ -24,14 +24,14 @@ Partial Class frmQuestion2
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmQuestion2))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
+        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnNext = New System.Windows.Forms.Button()
-        Me.btnAnswer1 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer2 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer3 = New System.Windows.Forms.RadioButton()
-        Me.btnAnswer4 = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,6 +49,50 @@ Partial Class frmQuestion2
         Me.GroupBox1.Size = New System.Drawing.Size(187, 195)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'btnAnswer4
+        '
+        Me.btnAnswer4.AutoSize = True
+        Me.btnAnswer4.Location = New System.Drawing.Point(6, 140)
+        Me.btnAnswer4.Name = "btnAnswer4"
+        Me.btnAnswer4.Size = New System.Drawing.Size(92, 24)
+        Me.btnAnswer4.TabIndex = 3
+        Me.btnAnswer4.TabStop = True
+        Me.btnAnswer4.Text = "19 million"
+        Me.btnAnswer4.UseVisualStyleBackColor = True
+        '
+        'btnAnswer3
+        '
+        Me.btnAnswer3.AutoSize = True
+        Me.btnAnswer3.Location = New System.Drawing.Point(6, 103)
+        Me.btnAnswer3.Name = "btnAnswer3"
+        Me.btnAnswer3.Size = New System.Drawing.Size(92, 24)
+        Me.btnAnswer3.TabIndex = 2
+        Me.btnAnswer3.TabStop = True
+        Me.btnAnswer3.Text = "18 million"
+        Me.btnAnswer3.UseVisualStyleBackColor = True
+        '
+        'btnAnswer2
+        '
+        Me.btnAnswer2.AutoSize = True
+        Me.btnAnswer2.Location = New System.Drawing.Point(6, 69)
+        Me.btnAnswer2.Name = "btnAnswer2"
+        Me.btnAnswer2.Size = New System.Drawing.Size(92, 24)
+        Me.btnAnswer2.TabIndex = 1
+        Me.btnAnswer2.TabStop = True
+        Me.btnAnswer2.Text = "17 million"
+        Me.btnAnswer2.UseVisualStyleBackColor = True
+        '
+        'btnAnswer1
+        '
+        Me.btnAnswer1.AutoSize = True
+        Me.btnAnswer1.Location = New System.Drawing.Point(6, 35)
+        Me.btnAnswer1.Name = "btnAnswer1"
+        Me.btnAnswer1.Size = New System.Drawing.Size(92, 24)
+        Me.btnAnswer1.TabIndex = 0
+        Me.btnAnswer1.TabStop = True
+        Me.btnAnswer1.Text = "16 million"
+        Me.btnAnswer1.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -89,50 +133,6 @@ Partial Class frmQuestion2
         Me.btnNext.TabIndex = 4
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
-        '
-        'btnAnswer1
-        '
-        Me.btnAnswer1.AutoSize = True
-        Me.btnAnswer1.Location = New System.Drawing.Point(6, 35)
-        Me.btnAnswer1.Name = "btnAnswer1"
-        Me.btnAnswer1.Size = New System.Drawing.Size(92, 24)
-        Me.btnAnswer1.TabIndex = 0
-        Me.btnAnswer1.TabStop = True
-        Me.btnAnswer1.Text = "16 million"
-        Me.btnAnswer1.UseVisualStyleBackColor = True
-        '
-        'btnAnswer2
-        '
-        Me.btnAnswer2.AutoSize = True
-        Me.btnAnswer2.Location = New System.Drawing.Point(6, 69)
-        Me.btnAnswer2.Name = "btnAnswer2"
-        Me.btnAnswer2.Size = New System.Drawing.Size(92, 24)
-        Me.btnAnswer2.TabIndex = 1
-        Me.btnAnswer2.TabStop = True
-        Me.btnAnswer2.Text = "17 million"
-        Me.btnAnswer2.UseVisualStyleBackColor = True
-        '
-        'btnAnswer3
-        '
-        Me.btnAnswer3.AutoSize = True
-        Me.btnAnswer3.Location = New System.Drawing.Point(6, 103)
-        Me.btnAnswer3.Name = "btnAnswer3"
-        Me.btnAnswer3.Size = New System.Drawing.Size(92, 24)
-        Me.btnAnswer3.TabIndex = 2
-        Me.btnAnswer3.TabStop = True
-        Me.btnAnswer3.Text = "18 million"
-        Me.btnAnswer3.UseVisualStyleBackColor = True
-        '
-        'btnAnswer4
-        '
-        Me.btnAnswer4.AutoSize = True
-        Me.btnAnswer4.Location = New System.Drawing.Point(6, 140)
-        Me.btnAnswer4.Name = "btnAnswer4"
-        Me.btnAnswer4.Size = New System.Drawing.Size(92, 24)
-        Me.btnAnswer4.TabIndex = 3
-        Me.btnAnswer4.TabStop = True
-        Me.btnAnswer4.Text = "19 million"
-        Me.btnAnswer4.UseVisualStyleBackColor = True
         '
         'frmQuestion2
         '

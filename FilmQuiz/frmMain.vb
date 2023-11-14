@@ -11,9 +11,13 @@
         playerScore = 0
         playerName = txtplayerName.Text
         frmQuestion1.Show()
-        frmQuestion1.InitializeLifetimeService()
+
         txtplayerName.Text = ""
         Me.Hide()
 
+    End Sub
+
+    Private Sub btnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
+        Application.Exit()
     End Sub
 End Class
